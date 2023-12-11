@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T10:35:26.108Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="4jIA_c70Z1l40wUHkua1" version="22.1.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-12-11T10:41:59.189Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="E3sTghduZXVptYpXkh_1" version="22.1.7" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#F2F2F2" math="0" shadow="0">
       <root>
@@ -35,9 +35,6 @@
         </mxCell>
         <mxCell id="f3v9EZizSLQ6G_uEAZpi-8" value="Registrace(Číslo_zásilky: Int): boolean" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
           <mxGeometry y="228" width="260" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="f3v9EZizSLQ6G_uEAZpi-15" value="Uložení(Číslo_zásilky: Int): Void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="254" width="260" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="Balík" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="30" width="160" height="139" as="geometry">
@@ -234,10 +231,10 @@
         <mxCell id="JNt9cT0GDPqlfcjv7Z6b-10" value="&amp;nbsp; Kontrola_intenzivni(Kontrolovaná_zasilka: Int): boolean" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="JNt9cT0GDPqlfcjv7Z6b-2">
           <mxGeometry y="254" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nAZX9UGnz_ZPNYPWw2uq-3" value="Gen_výstup(): Int" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="JNt9cT0GDPqlfcjv7Z6b-2">
+        <mxCell id="nAZX9UGnz_ZPNYPWw2uq-3" value="&amp;nbsp;Gen_výstup(): Int" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="JNt9cT0GDPqlfcjv7Z6b-2">
           <mxGeometry y="284" width="370" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nAZX9UGnz_ZPNYPWw2uq-4" value="Gen_zpráva(): String" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="JNt9cT0GDPqlfcjv7Z6b-2">
+        <mxCell id="nAZX9UGnz_ZPNYPWw2uq-4" value="&amp;nbsp;Gen_zpráva(): String" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="JNt9cT0GDPqlfcjv7Z6b-2">
           <mxGeometry y="314" width="370" height="30" as="geometry" />
         </mxCell>
         <mxCell id="JNt9cT0GDPqlfcjv7Z6b-11" value="Vyhodnoceni_zasilky(Kontrolovaná_zasilka: Int, Výstup: Int): Void" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" vertex="1" parent="JNt9cT0GDPqlfcjv7Z6b-2">
